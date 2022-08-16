@@ -58,3 +58,19 @@ h1.title-APJ {
     text-decoration: none;
     color: black;
 }
+
+/* For mobile phones */
+@media screen and (max-width:800px) {
+/* Styling the body element like body color and margin */
+body{
+    margin: 5%;
+}
+
+    /* Styling the Title and giving shadow to the title */
+#title {
+
+    text-align: center;
+    text-shadow: 2px 2px 6px white;
+    font-size: 3vh;
+}
+}
